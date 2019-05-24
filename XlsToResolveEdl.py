@@ -15,7 +15,7 @@ def get_comment_duration(tc1_in, tc2_in, fps):
     return durations
 
 
-def main(file_in, file_out, fps="23.98"):
+def main(file_in, file_out, fps="23.98", "ascii"):
     """ Convert an Excel spreadsheet with in/out TC to a compatible DaVinci Resolve EDL
     :param file_in: Path to Excel file (make sure the sheet is named 'Sheet1')
     :param file_out: Output edl name (make sure to use the .edl extension)
